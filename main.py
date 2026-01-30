@@ -1,6 +1,7 @@
 import os
 import sys
 
+# 我又修改了一部分小小的内容 用来做特性测试
 # Fix PyQt5 DLL loading issue by adding Qt bin directory to PATH
 try:
     qt_bin_path = os.path.join(os.path.dirname(sys.executable), "Lib", "site-packages", "PyQt5", "Qt5", "bin")
