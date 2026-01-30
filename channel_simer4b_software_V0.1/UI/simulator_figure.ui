@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>simulator_figure</class>
+ <widget class="QWidget" name="simulator_figure">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>308</width>
+    <height>281</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>-</string>
+  </property>
+  <widget class="QLineEdit" name="LE_input0">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_input1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_input2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入3</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_input3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入4</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_input4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入5</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_input5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入6</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_input6">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入7</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_input7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入8</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output7">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>230</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出8</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output5">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>170</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出6</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出3</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output3">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>110</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出4</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output0">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output1">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>50</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output4">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>140</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出5</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_output6">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>200</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出7</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
